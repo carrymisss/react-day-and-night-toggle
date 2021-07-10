@@ -1,0 +1,51 @@
+{
+  "name": "react-day-and-night-toggler",
+  "version": "1.0.0",
+  "description": "🌞Day & Night🌛 (light/dark theme) Switch with pretty cool animation for React",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "private": false,
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -b .",
+    "test": "jest"
+  },
+  "keywords": [
+    "react",
+    "theme",
+    "light",
+    "day",
+    "dark",
+    "night",
+    "moon",
+    "sun",
+    "clouds",
+    "stars",
+    "mode",
+    "toggle",
+    "button"
+  ],
+  "author": "Valeri Bilshevych (@carrymisss) <valera12bravis@gmail.com>",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": ">=17"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.24",
+    "@types/react": "^17.0.14",
+    "@types/styled-components": "^5.1.11",
+    "jest": "^27.0.6",
+    "react-dom": "^17.0.2",
+    "typescript": "^4.3.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carrymisss/react-day-and-night-toggler.git"
+  },
+  "bugs": {
+    "url": "https://github.com/carrymisss/react-day-and-night-toggler/issues"
+  },
+  "homepage": "https://github.com/carrymisss/react-day-and-night-toggler#readme"
+}
