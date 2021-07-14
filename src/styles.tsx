@@ -11,6 +11,7 @@ import {
     cloudtravel3,
 } from './animations'
 
+
 interface ISwitchContainer {
     readonly size: number
 }
@@ -19,7 +20,6 @@ interface ISwitch extends ISwitchContainer {
     readonly checked: boolean,
     readonly shadows: boolean
 }
-
 
 export const SwitchContainer = styled.div<ISwitchContainer>`
     position: relative;

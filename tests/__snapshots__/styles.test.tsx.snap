@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test of 'styled-components' components: should <Circle> render: 1`] = `
+<div
+  className=""
+/>
+`;
+
+exports[`Test of 'styled-components' components: should <Cloud> render: 1`] = `
+<div
+  className=""
+/>
+`;
+
+exports[`Test of 'styled-components' components: should <Cloudpart> render: 1`] = `
+<div
+  className=""
+/>
+`;
+
+exports[`Test of 'styled-components' components: should <Clouds> render: 1`] = `
+<div
+  className=""
+/>
+`;
+
+exports[`Test of 'styled-components' components: should <ContentWrapper> render: 1`] = `
+<div
+  className=""
+/>
+`;
+
+exports[`Test of 'styled-components' components: should <ShootingStar> render: 1`] = `
+<div
+  className=""
+/>
+`;
+
+exports[`Test of 'styled-components' components: should <ShootingStarWrapper> render: 1`] = `
+<div
+  className=""
+/>
+`;
+
+exports[`Test of 'styled-components' components: should <Star> render: 1`] = `
+<div
+  className=""
+/>
+`;
+
+exports[`Test of 'styled-components' components: should <Stars> render: 1`] = `
+<div
+  className=""
+/>
+`;
+
+exports[`Test of 'styled-components' components: should <Switch> render: 1`] = `
+<div
+  className=""
+  size={32}
+/>
+`;
+
+exports[`Test of 'styled-components' components: should <SwitchContainer> render: 1`] = `
+<div
+  className=""
+  size={32}
+/>
+`;

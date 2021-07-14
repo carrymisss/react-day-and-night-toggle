@@ -1,0 +1,159 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test of component <DayAndNightToggler>: should all props be passed: 1`] = `
+<div
+  className="sc-bdnxRM gKaFwy class_name"
+  size={24}
+>
+  <div
+    checked={false}
+    className="sc-gtsrHT jROzHT"
+    onClick={[Function]}
+    size={24}
+  >
+    <div
+      className="sc-dlnjwi dUJAIp"
+    >
+      <div
+        className="sc-hKFxyN fbhGat"
+      />
+      <div
+        className="sc-eCApnc"
+      >
+        <div
+          className="sc-jSFjdj kLwpYE"
+        />
+        <div
+          className="sc-jSFjdj kLwpYE"
+        />
+        <div
+          className="sc-jSFjdj kLwpYE"
+        />
+        <div
+          className="sc-gKAaRy biuKKK"
+        >
+          <div
+            className="sc-iCoGMd bvBrMn"
+          />
+        </div>
+      </div>
+      <div
+        className="sc-pNWdM"
+      >
+        <div
+          className="sc-jrsJWt ccGWJZ"
+        >
+          <div
+            className="sc-fujyAs"
+          />
+          <div
+            className="sc-fujyAs"
+          />
+        </div>
+        <div
+          className="sc-jrsJWt ccGWJZ"
+        >
+          <div
+            className="sc-fujyAs"
+          />
+          <div
+            className="sc-fujyAs"
+          />
+        </div>
+        <div
+          className="sc-jrsJWt ccGWJZ"
+        >
+          <div
+            className="sc-fujyAs"
+          />
+          <div
+            className="sc-fujyAs"
+          />
+          <div
+            className="sc-fujyAs"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Test of component <DayAndNightToggler>: should render: 1`] = `
+<div
+  className="sc-bdnxRM ijVOMr"
+  size={32}
+>
+  <div
+    checked={false}
+    className="sc-gtsrHT jgaMKR"
+    onClick={[Function]}
+    size={32}
+  >
+    <div
+      className="sc-dlnjwi dUJAIp"
+    >
+      <div
+        className="sc-hKFxyN fbhGat"
+      />
+      <div
+        className="sc-eCApnc"
+      >
+        <div
+          className="sc-jSFjdj kLwpYE"
+        />
+        <div
+          className="sc-jSFjdj kLwpYE"
+        />
+        <div
+          className="sc-jSFjdj kLwpYE"
+        />
+        <div
+          className="sc-gKAaRy biuKKK"
+        >
+          <div
+            className="sc-iCoGMd bvBrMn"
+          />
+        </div>
+      </div>
+      <div
+        className="sc-pNWdM"
+      >
+        <div
+          className="sc-jrsJWt ccGWJZ"
+        >
+          <div
+            className="sc-fujyAs"
+          />
+          <div
+            className="sc-fujyAs"
+          />
+        </div>
+        <div
+          className="sc-jrsJWt ccGWJZ"
+        >
+          <div
+            className="sc-fujyAs"
+          />
+          <div
+            className="sc-fujyAs"
+          />
+        </div>
+        <div
+          className="sc-jrsJWt ccGWJZ"
+        >
+          <div
+            className="sc-fujyAs"
+          />
+          <div
+            className="sc-fujyAs"
+          />
+          <div
+            className="sc-fujyAs"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
