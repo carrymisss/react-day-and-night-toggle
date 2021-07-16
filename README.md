@@ -12,13 +12,13 @@ npm install react-day-and-night-toggle
 ## Usage
 ```jsx
 import React, { useState } from 'react'
-import DayNightToggler from 'react-day-and-night-toggle'
+import DayNightToggle from 'react-day-and-night-toggle'
 
 const App = () => {
   const [isDarkMode, setIsDarkMode] = useState()
 
   return (
-    <DayNightToggler
+    <DayNightToggle
       onChange={() => setIsDarkMode(!isDarkMode)}
       checked={isDarkMode}
     />
