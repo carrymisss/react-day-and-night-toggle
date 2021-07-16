@@ -15,14 +15,14 @@ import React, { useState } from 'react'
 import DayNightToggler from 'react-day-and-night-toggler'
 
 const App = () => {
-	const [isDarkMode, setIsDarkMode] = useState()
-	
-	return (
-		<DayNightToggler
-			onChange={() => setIsDarkMode(!isDarkMode)}
-			checked={isDarkMode}
-		/>
-	)
+  const [isDarkMode, setIsDarkMode] = useState()
+
+  return (
+    <DayNightToggler
+	  onChange={() => setIsDarkMode(!isDarkMode)}
+	  checked={isDarkMode}
+	/>
+  )
 }
 ```
 
