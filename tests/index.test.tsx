@@ -21,7 +21,7 @@ describe('Test of component <DayAndNightToggler>:', () => {
     })
     test('should have all the necessary props:', () => { 
         expect(component.root.props).toEqual({ checked: theme, onChange: changeTheme })
-        expect(changeTheme).toHaveBeenCalled
+        expect(changeTheme).toHaveBeenCalled 
     })
     test('should all props be passed:', () => {
         renderer.act(() => {
