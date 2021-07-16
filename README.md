@@ -1,4 +1,4 @@
-# react-day-and-night-toggler
+# react-day-and-night-toggle
 🌞Day & Night🌛 (light/dark) theme switch with pretty cool animation for React.
 > Made a React component from [Da_Woodhead codepen](https://codepen.io/Da_Woodhead/pen/VdaBwq "Da_Woodhead codepen").
 
@@ -6,22 +6,22 @@
 Using **npm**:
 
 ```bash
-npm install react-day-and-night-toggler
+npm install react-day-and-night-toggle
 ```
 
 ## Usage
 ```jsx
 import React, { useState } from 'react'
-import DayNightToggler from 'react-day-and-night-toggler'
+import DayNightToggler from 'react-day-and-night-toggle'
 
 const App = () => {
   const [isDarkMode, setIsDarkMode] = useState()
 
   return (
     <DayNightToggler
-	  onChange={() => setIsDarkMode(!isDarkMode)}
-	  checked={isDarkMode}
-	/>
+      onChange={() => setIsDarkMode(!isDarkMode)}
+      checked={isDarkMode}
+    />
   )
 }
 ```
