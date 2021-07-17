@@ -8,6 +8,11 @@ Using **npm**:
 ```bash
 npm install react-day-and-night-toggle
 ```
+Using **yarn**:
+
+```bash
+yarn add react-day-and-night-toggle
+```
 
 ## Usage
 ```jsx
@@ -15,7 +20,7 @@ import React, { useState } from 'react'
 import DayNightToggle from 'react-day-and-night-toggle'
 
 const App = () => {
-  const [isDarkMode, setIsDarkMode] = useState()
+  const [isDarkMode, setIsDarkMode] = useState(false)
 
   return (
     <DayNightToggle
