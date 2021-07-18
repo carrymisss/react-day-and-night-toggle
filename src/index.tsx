@@ -111,6 +111,8 @@ DayAndNightToggle.propTypes = {
 }
 
 DayAndNightToggle.defaultProps = {
+    onChange: () => null,
+    checked: false,
     size: 32,
     startInactive: false,
     animationInactive: true,
