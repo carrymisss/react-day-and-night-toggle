@@ -1,4 +1,5 @@
 import React, { useState, useEffect, memo } from 'react'
+import PropTypes from 'prop-types'
 import {
     Switch,
     SwitchContainer,
@@ -25,7 +26,7 @@ interface IProps {
     [props: string]: any
 }
 
-const DayAndNightToggler = ({
+const DayAndNightToggle = ({
     onChange,
     checked,
     size = 32,
@@ -99,6 +100,24 @@ const DayAndNightToggler = ({
     )
 }
 
+DayAndNightToggle.propTypes = {
+    onChange: PropTypes.func.isRequired,
+    checked: PropTypes.bool.isRequired,
+    size: PropTypes.number,
+    startInactive: PropTypes.bool,
+    animationInactive: PropTypes.bool,
+    shadows: PropTypes.bool,
+    className: PropTypes.string,
+}
+
+DayAndNightToggle.defaultProps = {
+    size: 32,
+    startInactive: false,
+    animationInactive: true,
+    shadows: true,
+    className: undefined,
+}
+
 const propsAreEqual = (prevProps: IProps, nextProps: IProps) =>
     prevProps.checked === nextProps.checked &&
     prevProps.size === nextProps.size &&
@@ -107,4 +126,4 @@ const propsAreEqual = (prevProps: IProps, nextProps: IProps) =>
     prevProps.shadows === nextProps.shadows &&
     prevProps.className === nextProps.className
 
-export default memo(DayAndNightToggler, propsAreEqual)
+export default memo(DayAndNightToggle, propsAreEqual)
