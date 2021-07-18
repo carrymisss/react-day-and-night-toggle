@@ -40,7 +40,7 @@ const App = () => {
 | startInactive | `boolean` | `false` | no | The button is disabled for 2 seconds after rendering (this can come in handy when some theme is enabled and your site is loading styles, and you don't want the user to change the theme). |
 | animationInactive | `boolean` | `true` | no | The button is disabled after being pressed during animation (that's 2 seconds). |
 | shadows | `boolean` | `true` | no | A shadow, dark at "day" and light at "night", around the button. |
-| className | `string` | `null` | no | Your own classnames. |
+| className | `string` | `undefined` | no | Your own classnames. |
 
 ## License
 MIT © [carrymisss](https://github.com/carrymisss)
