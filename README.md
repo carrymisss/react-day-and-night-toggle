@@ -34,7 +34,7 @@ const App = () => {
 ## Props 
 | Prop | Type  | Default  | Required | Description |
 | ------------ | ------------ | ------------ | ------------ | ------------ |
-| onChange | `function`  |  | yes | Callback for when the switch is checked, use this to set your state. |
+| onChange | `function` |  | yes | Callback for when the switch is checked, use this to set your state. |
 | checked | `boolean` |  | yes | The state of the switch is passed here. |
 | size | `number` | `32` | no | The size of the button that corresponds to its height (it is recommended to use an even integer number). The passed number will be automatically rounded down to the lowest integer. |
 | startInactive | `boolean` | `false` | no | The button is disabled for 2 seconds after rendering (this can come in handy when some theme is enabled and your site is loading styles, and you don't want the user to change the theme). |
