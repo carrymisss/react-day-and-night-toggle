@@ -3,7 +3,7 @@
 > Made a React component from [Da_Woodhead codepen](https://codepen.io/Da_Woodhead/pen/VdaBwq "Da_Woodhead codepen").
 
 <p align="center">
-  <img src="https://github.com/carrymisss/react-day-and-night-toggle/tree/main/assets/demonstration.gif">
+  <img width="350px" style="border-radius: 10px; box-shadow: 0 0 20px 1px rgba(0,0,0,.05)" src="https://github.com/carrymisss/react-day-and-night-toggle/blob/main/assets/demonstration.gif?raw=true">
 </p>
 
 ## Live demo
