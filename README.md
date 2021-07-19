@@ -2,6 +2,13 @@
 🌞Day & Night🌛 (light/dark) theme switch with pretty cool animation for React.
 > Made a React component from [Da_Woodhead codepen](https://codepen.io/Da_Woodhead/pen/VdaBwq "Da_Woodhead codepen").
 
+<p align="center">
+  <img src="https://github.com/carrymisss/react-day-and-night-toggle/tree/main/assets/demonstration.gif">
+</p>
+
+## Live demo
+[A demo is worth a thousand words](https://react-day-and-night-toggle.vercel.app/)
+
 ## Installation
 Using **npm**:
 
