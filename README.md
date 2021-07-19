@@ -2,8 +2,6 @@
 🌞Day & Night🌛 (light/dark) theme switch with pretty cool animation for React.
 > Made a React component from [Da_Woodhead codepen](https://codepen.io/Da_Woodhead/pen/VdaBwq "Da_Woodhead codepen").
 
-<video><source src="./video.mov"/></video>
-
 ## Installation
 Using **npm**:
 
