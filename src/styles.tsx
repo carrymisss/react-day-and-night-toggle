@@ -186,7 +186,7 @@ export const Star = styled.div`
 
 export const ShootingStarWrapper = styled.div`
     position: absolute;
-    transform: translate(200px, -30px) rotate(-30deg);
+    transform: translate(200px, -34px) rotate(-30deg);
     opacity: 0;
 `
 

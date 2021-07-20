@@ -30,7 +30,7 @@ exports[`Test of component <DayAndNightToggler>: should all props be passed: 1`]
           className="sc-jSFjdj kLwpYE"
         />
         <div
-          className="sc-gKAaRy biuKKK"
+          className="sc-gKAaRy gFUvte"
         >
           <div
             className="sc-iCoGMd bvBrMn"
@@ -109,7 +109,7 @@ exports[`Test of component <DayAndNightToggler>: should render: 1`] = `
           className="sc-jSFjdj kLwpYE"
         />
         <div
-          className="sc-gKAaRy biuKKK"
+          className="sc-gKAaRy gFUvte"
         >
           <div
             className="sc-iCoGMd bvBrMn"
