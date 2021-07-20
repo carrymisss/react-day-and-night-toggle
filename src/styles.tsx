@@ -5,7 +5,7 @@ import {
     startravel2,
     startravel3,
     shootingstartravel,
-    growtrail, 
+    growtrail,
     cloudtravel1,
     cloudtravel2,
     cloudtravel3,
@@ -36,11 +36,11 @@ export const Switch: any = styled.div<ISwitch>`
     left: 50%;
     top: 50%;
     border-radius: 70px;
-    border: 5px solid ${props => props.checked ? 'rgb(40, 40, 51)' : 'rgb(211, 239, 255)' };
-    background-color: ${props => props.checked ? 'rgb(23, 23, 35)' : 'rgb(186, 230, 255)' };
+    border: 5px solid ${props => props.checked ? 'rgb(40, 40, 51)' : 'rgb(211, 239, 255)'};
+    background-color: ${props => props.checked ? 'rgb(23, 23, 35)' : 'rgb(186, 230, 255)'};
     transition: border-color 1500ms, background-color 1500ms, box-shadow 1500ms;
-    ${props => props.shadows && `box-shadow: 0 0 35px 1px ${props.checked ? '#E0E0E0' : '#616161' };`}
-    transform: translate(-50%, -50%) scale(${props =>  props.size * 0.00832});
+    ${props => props.shadows && `box-shadow: 0 0 35px 1px ${props.checked ? '#E0E0E0' : '#616161'};`}
+    transform: translate(-50%, -50%) scale(${props => props.size * 0.00832});
     ${props => props.checked && css`
         ${Circle} {
             width: 100px;
