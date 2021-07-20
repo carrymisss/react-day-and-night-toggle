@@ -45,8 +45,7 @@ export const Switch: any = styled.div<ISwitch>`
         ${Circle} {
             width: 100px;
             height: 100px;
-            left: 100%;
-            transform: translate(-100%, -50%);
+            left: 66%;
             background-color: rgb(237, 242, 241);
             box-shadow: 0 0 20px 3px rgb(244, 247, 246);
             &::before, &::after {
