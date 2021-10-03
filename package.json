@@ -1,6 +1,6 @@
 {
   "name": "react-day-and-night-toggle",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "description": "🌞Day & Night🌛 (light/dark) theme switch with pretty cool animation for React.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
