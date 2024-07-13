@@ -1,1 +1,1 @@
-export { DayAndNightToggle } from './index';
+export { DayAndNightToggle } from './component';

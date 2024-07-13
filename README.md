@@ -38,7 +38,7 @@ const App = () => {
 }
 ```
 
-## Props 
+## Props
 | Prop | Type  | Default  | Required | Description |
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 | onChange | `function` |  | yes | Callback for when the switch is checked, use this to set your state. |

@@ -6,7 +6,14 @@ import { defineConfig } from 'vite'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
-    react(),
+    react({
+			include: /\.(jsx|tsx)$/,
+			babel: {
+				plugins: ['styled-components'],
+				babelrc: false,
+				configFile: false,
+			},
+		}),
     legacy({
         modernPolyfills: ['es/global-this']
       }),
