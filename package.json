@@ -28,7 +28,8 @@
   },
   "dependencies": {
     "react": ">=18",
-    "react-dom": ">=18"
+    "react-dom": ">=18",
+    "styled-components": "^6.1.11"
   },
   "devDependencies": {
     "@cfaester/enzyme-adapter-react-18": "^0.8.0",
@@ -48,7 +49,6 @@
     "prettier": "^3.3.2",
     "prop-types": "^15.8.1",
     "react-test-renderer": "^18.3.1",
-    "styled-components": "^6.1.11",
     "terser": "^5.31.2",
     "typescript": "^5.2.2",
     "vite": "^5.3.1",
