@@ -24,15 +24,15 @@ yarn add react-day-and-night-toggle
 ## Usage
 ```jsx
 import React, { useState } from 'react'
-import DayNightToggle from 'react-day-and-night-toggle'
+import { DayNightToggle } from 'react-day-and-night-toggle'
 
 const App = () => {
   const [isDarkMode, setIsDarkMode] = useState(false)
 
   return (
     <DayNightToggle
-      onChange={() => setIsDarkMode(!isDarkMode)}
-      checked={isDarkMode}
+      onChange={ () => setIsDarkMode(!isDarkMode) }
+      checked={ isDarkMode }
     />
   )
 }
