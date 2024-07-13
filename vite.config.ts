@@ -6,14 +6,7 @@ import { defineConfig } from 'vite'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
-    react({
-			include: /\.(jsx|tsx)$/,
-			babel: {
-				plugins: ['styled-components'],
-				babelrc: false,
-				configFile: false,
-			},
-		}),
+    react(),
     legacy({
         modernPolyfills: ['es/global-this']
       }),
@@ -22,7 +15,10 @@ export default defineConfig({
     host: true,
     port: 5665
   },
-    build: {
+  build: {
+    rollupOptions: {
+      external: ['styled-components'],
+    },
     manifest: true,
     minify: true,
     reportCompressedSize: true,
