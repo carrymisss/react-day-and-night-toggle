@@ -1,30 +1,32 @@
 {
   "name": "react-day-and-night-toggle",
-  "version": "2.0.0",
+  "version": "2.0.3",
   "author": "Valeri Bilshevych (@carrymisss) <valera12bravis@gmail.com>",
   "license": "MIT",
   "description": "🌞Day & Night🌛 (light/dark) theme switch with pretty cool animation for React.",
   "exports": {
     ".": {
-      "import": "./dist/main.es.js",
-      "require": "./dist/main.cjs.js"
+      "import": "./lib/esm/index.jsx",
+      "require": "./lib/cjs/index.jsx"
     }
   },
-  "main": "./dist/main.cjs.js",
-  "module": "./dist/main.es.js",
-  "typings": "./dist/main.d.ts",
+  "main": "./lib/cjs/index.jsx",
+  "module": "./lib/esm/index.jsx",
+  "types": "./lib/esm/index.d.tsx",
   "private": false,
   "files": [
-    "dist"
+    "lib"
   ],
   "scripts": {
     "dev": "vite",
     "build1": "tsc -b && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "build": "tsc",
     "test": "vitest",
-    "format": "prettier --write \"src/**/*.tsx\" \"tests/**/*.tsx\""
+    "format": "prettier --write \"src/**/*.tsx\" \"tests/**/*.tsx\"",
+    "build": "yarn build:esm && yarn build:cjs",
+    "build:esm": "tsc",
+    "build:cjs": "tsc --module commonjs --outDir lib/cjs"
   },
   "dependencies": {
     "react": ">=18",

@@ -1,1 +1,0 @@
-export { DayAndNightToggle } from './component';

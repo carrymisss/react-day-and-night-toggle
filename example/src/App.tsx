@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-import { DayAndNightToggle } from '../../src/main'
+import { DayAndNightToggle } from 'react-day-and-night-toggle'
 
 import logo from './assets/logo.svg'
 
