@@ -1,69 +1,744 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Bun Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Test of 'styled-components' components: should <Circle> render: 1`] = `
-<div
-  className=""
-/>
-`;
-
-exports[`Test of 'styled-components' components: should <Cloud> render: 1`] = `
-<div
-  className=""
-/>
-`;
-
-exports[`Test of 'styled-components' components: should <Cloudpart> render: 1`] = `
-<div
-  className=""
-/>
-`;
-
-exports[`Test of 'styled-components' components: should <Clouds> render: 1`] = `
-<div
-  className=""
-/>
-`;
-
-exports[`Test of 'styled-components' components: should <ContentWrapper> render: 1`] = `
-<div
-  className=""
-/>
-`;
-
-exports[`Test of 'styled-components' components: should <ShootingStar> render: 1`] = `
-<div
-  className=""
-/>
-`;
-
-exports[`Test of 'styled-components' components: should <ShootingStarWrapper> render: 1`] = `
-<div
-  className=""
-/>
-`;
-
-exports[`Test of 'styled-components' components: should <Star> render: 1`] = `
-<div
-  className=""
-/>
-`;
-
-exports[`Test of 'styled-components' components: should <Stars> render: 1`] = `
-<div
-  className=""
-/>
+exports[`Test of 'styled-components' components: should <SwitchContainer> render: 1`] = `
+ShallowWrapper {
+  [Symbol(enzyme.__node__)]: {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": {
+      "className": "sc-aYaIB dZxTuZ",
+      "size": 32,
+    },
+    "ref": null,
+    "rendered": null,
+    "type": "div",
+  },
+  [Symbol(enzyme.__nodes__)]: [
+    {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": {
+        "className": "sc-aYaIB dZxTuZ",
+        "size": 32,
+      },
+      "ref": null,
+      "rendered": null,
+      "type": "div",
+    },
+  ],
+  [Symbol(enzyme.__options__)]: {
+    "adapter": ReactEighteenAdapter {
+      "options": {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": {
+          "componentDidUpdate": {
+            "onSetState": true,
+          },
+          "getChildContext": {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    [Symbol(enzyme.__providerValues__)]: undefined,
+  },
+  [Symbol(enzyme.__providerValues__)]: Map {},
+  [Symbol(enzyme.__renderer__)]: {
+    "batchedUpdates": [Function: batchedUpdates],
+    "checkPropTypes": [Function: checkPropTypes],
+    "getNode": [Function: getNode],
+    "render": [Function: render],
+    "simulateError": [Function: simulateError],
+    "simulateEvent": [Function: simulateEvent],
+    "unmount": [Function: unmount],
+  },
+  [Symbol(enzyme.__root__)]: [Circular],
+  [Symbol(enzyme.__unrendered__)]: <NoName size=32 />,
+  "length": 1,
+}
 `;
 
 exports[`Test of 'styled-components' components: should <Switch> render: 1`] = `
-<div
-  className=""
-  size={32}
-/>
+ShallowWrapper {
+  [Symbol(enzyme.__node__)]: {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": {
+      "className": "sc-gEvDqW iTTEjd",
+      "shadow": true,
+      "size": 32,
+    },
+    "ref": null,
+    "rendered": null,
+    "type": "div",
+  },
+  [Symbol(enzyme.__nodes__)]: [
+    {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": {
+        "className": "sc-gEvDqW iTTEjd",
+        "shadow": true,
+        "size": 32,
+      },
+      "ref": null,
+      "rendered": null,
+      "type": "div",
+    },
+  ],
+  [Symbol(enzyme.__options__)]: {
+    "adapter": ReactEighteenAdapter {
+      "options": {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": {
+          "componentDidUpdate": {
+            "onSetState": true,
+          },
+          "getChildContext": {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    [Symbol(enzyme.__providerValues__)]: undefined,
+  },
+  [Symbol(enzyme.__providerValues__)]: Map {},
+  [Symbol(enzyme.__renderer__)]: {
+    "batchedUpdates": [Function: batchedUpdates],
+    "checkPropTypes": [Function: checkPropTypes],
+    "getNode": [Function: getNode],
+    "render": [Function: render],
+    "simulateError": [Function: simulateError],
+    "simulateEvent": [Function: simulateEvent],
+    "unmount": [Function: unmount],
+  },
+  [Symbol(enzyme.__root__)]: [Circular],
+  [Symbol(enzyme.__unrendered__)]: <NoName size=32 shadow=true />,
+  "length": 1,
+}
 `;
 
-exports[`Test of 'styled-components' components: should <SwitchContainer> render: 1`] = `
-<div
-  className=""
-  size={32}
-/>
+exports[`Test of 'styled-components' components: should <ContentWrapper> render: 1`] = `
+ShallowWrapper {
+  [Symbol(enzyme.__node__)]: {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": {
+      "className": "sc-eqUzNf beLJUp",
+    },
+    "ref": null,
+    "rendered": null,
+    "type": "div",
+  },
+  [Symbol(enzyme.__nodes__)]: [
+    {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": {
+        "className": "sc-eqUzNf beLJUp",
+      },
+      "ref": null,
+      "rendered": null,
+      "type": "div",
+    },
+  ],
+  [Symbol(enzyme.__options__)]: {
+    "adapter": ReactEighteenAdapter {
+      "options": {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": {
+          "componentDidUpdate": {
+            "onSetState": true,
+          },
+          "getChildContext": {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    [Symbol(enzyme.__providerValues__)]: undefined,
+  },
+  [Symbol(enzyme.__providerValues__)]: Map {},
+  [Symbol(enzyme.__renderer__)]: {
+    "batchedUpdates": [Function: batchedUpdates],
+    "checkPropTypes": [Function: checkPropTypes],
+    "getNode": [Function: getNode],
+    "render": [Function: render],
+    "simulateError": [Function: simulateError],
+    "simulateEvent": [Function: simulateEvent],
+    "unmount": [Function: unmount],
+  },
+  [Symbol(enzyme.__root__)]: [Circular],
+  [Symbol(enzyme.__unrendered__)]: <NoName />,
+  "length": 1,
+}
+`;
+
+exports[`Test of 'styled-components' components: should <Circle> render: 1`] = `
+ShallowWrapper {
+  [Symbol(enzyme.__node__)]: {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": {
+      "className": "sc-fqkwJk ePdnmY",
+    },
+    "ref": null,
+    "rendered": null,
+    "type": "div",
+  },
+  [Symbol(enzyme.__nodes__)]: [
+    {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": {
+        "className": "sc-fqkwJk ePdnmY",
+      },
+      "ref": null,
+      "rendered": null,
+      "type": "div",
+    },
+  ],
+  [Symbol(enzyme.__options__)]: {
+    "adapter": ReactEighteenAdapter {
+      "options": {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": {
+          "componentDidUpdate": {
+            "onSetState": true,
+          },
+          "getChildContext": {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    [Symbol(enzyme.__providerValues__)]: undefined,
+  },
+  [Symbol(enzyme.__providerValues__)]: Map {},
+  [Symbol(enzyme.__renderer__)]: {
+    "batchedUpdates": [Function: batchedUpdates],
+    "checkPropTypes": [Function: checkPropTypes],
+    "getNode": [Function: getNode],
+    "render": [Function: render],
+    "simulateError": [Function: simulateError],
+    "simulateEvent": [Function: simulateEvent],
+    "unmount": [Function: unmount],
+  },
+  [Symbol(enzyme.__root__)]: [Circular],
+  [Symbol(enzyme.__unrendered__)]: <NoName />,
+  "length": 1,
+}
+`;
+
+exports[`Test of 'styled-components' components: should <Star> render: 1`] = `
+ShallowWrapper {
+  [Symbol(enzyme.__node__)]: {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": {
+      "className": "sc-iGgVNO jhIIpU",
+    },
+    "ref": null,
+    "rendered": null,
+    "type": "div",
+  },
+  [Symbol(enzyme.__nodes__)]: [
+    {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": {
+        "className": "sc-iGgVNO jhIIpU",
+      },
+      "ref": null,
+      "rendered": null,
+      "type": "div",
+    },
+  ],
+  [Symbol(enzyme.__options__)]: {
+    "adapter": ReactEighteenAdapter {
+      "options": {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": {
+          "componentDidUpdate": {
+            "onSetState": true,
+          },
+          "getChildContext": {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    [Symbol(enzyme.__providerValues__)]: undefined,
+  },
+  [Symbol(enzyme.__providerValues__)]: Map {},
+  [Symbol(enzyme.__renderer__)]: {
+    "batchedUpdates": [Function: batchedUpdates],
+    "checkPropTypes": [Function: checkPropTypes],
+    "getNode": [Function: getNode],
+    "render": [Function: render],
+    "simulateError": [Function: simulateError],
+    "simulateEvent": [Function: simulateEvent],
+    "unmount": [Function: unmount],
+  },
+  [Symbol(enzyme.__root__)]: [Circular],
+  [Symbol(enzyme.__unrendered__)]: <NoName />,
+  "length": 1,
+}
+`;
+
+exports[`Test of 'styled-components' components: should <Stars> render: 1`] = `
+ShallowWrapper {
+  [Symbol(enzyme.__node__)]: {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": {
+      "className": "sc-dcJtft",
+    },
+    "ref": null,
+    "rendered": null,
+    "type": "div",
+  },
+  [Symbol(enzyme.__nodes__)]: [
+    {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": {
+        "className": "sc-dcJtft",
+      },
+      "ref": null,
+      "rendered": null,
+      "type": "div",
+    },
+  ],
+  [Symbol(enzyme.__options__)]: {
+    "adapter": ReactEighteenAdapter {
+      "options": {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": {
+          "componentDidUpdate": {
+            "onSetState": true,
+          },
+          "getChildContext": {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    [Symbol(enzyme.__providerValues__)]: undefined,
+  },
+  [Symbol(enzyme.__providerValues__)]: Map {},
+  [Symbol(enzyme.__renderer__)]: {
+    "batchedUpdates": [Function: batchedUpdates],
+    "checkPropTypes": [Function: checkPropTypes],
+    "getNode": [Function: getNode],
+    "render": [Function: render],
+    "simulateError": [Function: simulateError],
+    "simulateEvent": [Function: simulateEvent],
+    "unmount": [Function: unmount],
+  },
+  [Symbol(enzyme.__root__)]: [Circular],
+  [Symbol(enzyme.__unrendered__)]: <NoName />,
+  "length": 1,
+}
+`;
+
+exports[`Test of 'styled-components' components: should <ShootingStar> render: 1`] = `
+ShallowWrapper {
+  [Symbol(enzyme.__node__)]: {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": {
+      "className": "sc-kAycRU etyDCI",
+    },
+    "ref": null,
+    "rendered": null,
+    "type": "div",
+  },
+  [Symbol(enzyme.__nodes__)]: [
+    {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": {
+        "className": "sc-kAycRU etyDCI",
+      },
+      "ref": null,
+      "rendered": null,
+      "type": "div",
+    },
+  ],
+  [Symbol(enzyme.__options__)]: {
+    "adapter": ReactEighteenAdapter {
+      "options": {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": {
+          "componentDidUpdate": {
+            "onSetState": true,
+          },
+          "getChildContext": {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    [Symbol(enzyme.__providerValues__)]: undefined,
+  },
+  [Symbol(enzyme.__providerValues__)]: Map {},
+  [Symbol(enzyme.__renderer__)]: {
+    "batchedUpdates": [Function: batchedUpdates],
+    "checkPropTypes": [Function: checkPropTypes],
+    "getNode": [Function: getNode],
+    "render": [Function: render],
+    "simulateError": [Function: simulateError],
+    "simulateEvent": [Function: simulateEvent],
+    "unmount": [Function: unmount],
+  },
+  [Symbol(enzyme.__root__)]: [Circular],
+  [Symbol(enzyme.__unrendered__)]: <NoName />,
+  "length": 1,
+}
+`;
+
+exports[`Test of 'styled-components' components: should <ShootingStarWrapper> render: 1`] = `
+ShallowWrapper {
+  [Symbol(enzyme.__node__)]: {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": {
+      "className": "sc-gsFSjX kfhihz",
+    },
+    "ref": null,
+    "rendered": null,
+    "type": "div",
+  },
+  [Symbol(enzyme.__nodes__)]: [
+    {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": {
+        "className": "sc-gsFSjX kfhihz",
+      },
+      "ref": null,
+      "rendered": null,
+      "type": "div",
+    },
+  ],
+  [Symbol(enzyme.__options__)]: {
+    "adapter": ReactEighteenAdapter {
+      "options": {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": {
+          "componentDidUpdate": {
+            "onSetState": true,
+          },
+          "getChildContext": {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    [Symbol(enzyme.__providerValues__)]: undefined,
+  },
+  [Symbol(enzyme.__providerValues__)]: Map {},
+  [Symbol(enzyme.__renderer__)]: {
+    "batchedUpdates": [Function: batchedUpdates],
+    "checkPropTypes": [Function: checkPropTypes],
+    "getNode": [Function: getNode],
+    "render": [Function: render],
+    "simulateError": [Function: simulateError],
+    "simulateEvent": [Function: simulateEvent],
+    "unmount": [Function: unmount],
+  },
+  [Symbol(enzyme.__root__)]: [Circular],
+  [Symbol(enzyme.__unrendered__)]: <NoName />,
+  "length": 1,
+}
+`;
+
+exports[`Test of 'styled-components' components: should <Cloud> render: 1`] = `
+ShallowWrapper {
+  [Symbol(enzyme.__node__)]: {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": {
+      "className": "sc-dhKdPU dxxEnp",
+    },
+    "ref": null,
+    "rendered": null,
+    "type": "div",
+  },
+  [Symbol(enzyme.__nodes__)]: [
+    {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": {
+        "className": "sc-dhKdPU dxxEnp",
+      },
+      "ref": null,
+      "rendered": null,
+      "type": "div",
+    },
+  ],
+  [Symbol(enzyme.__options__)]: {
+    "adapter": ReactEighteenAdapter {
+      "options": {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": {
+          "componentDidUpdate": {
+            "onSetState": true,
+          },
+          "getChildContext": {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    [Symbol(enzyme.__providerValues__)]: undefined,
+  },
+  [Symbol(enzyme.__providerValues__)]: Map {},
+  [Symbol(enzyme.__renderer__)]: {
+    "batchedUpdates": [Function: batchedUpdates],
+    "checkPropTypes": [Function: checkPropTypes],
+    "getNode": [Function: getNode],
+    "render": [Function: render],
+    "simulateError": [Function: simulateError],
+    "simulateEvent": [Function: simulateEvent],
+    "unmount": [Function: unmount],
+  },
+  [Symbol(enzyme.__root__)]: [Circular],
+  [Symbol(enzyme.__unrendered__)]: <NoName />,
+  "length": 1,
+}
+`;
+
+exports[`Test of 'styled-components' components: should <Clouds> render: 1`] = `
+ShallowWrapper {
+  [Symbol(enzyme.__node__)]: {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": {
+      "className": "sc-jXbVAB",
+    },
+    "ref": null,
+    "rendered": null,
+    "type": "div",
+  },
+  [Symbol(enzyme.__nodes__)]: [
+    {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": {
+        "className": "sc-jXbVAB",
+      },
+      "ref": null,
+      "rendered": null,
+      "type": "div",
+    },
+  ],
+  [Symbol(enzyme.__options__)]: {
+    "adapter": ReactEighteenAdapter {
+      "options": {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": {
+          "componentDidUpdate": {
+            "onSetState": true,
+          },
+          "getChildContext": {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    [Symbol(enzyme.__providerValues__)]: undefined,
+  },
+  [Symbol(enzyme.__providerValues__)]: Map {},
+  [Symbol(enzyme.__renderer__)]: {
+    "batchedUpdates": [Function: batchedUpdates],
+    "checkPropTypes": [Function: checkPropTypes],
+    "getNode": [Function: getNode],
+    "render": [Function: render],
+    "simulateError": [Function: simulateError],
+    "simulateEvent": [Function: simulateEvent],
+    "unmount": [Function: unmount],
+  },
+  [Symbol(enzyme.__root__)]: [Circular],
+  [Symbol(enzyme.__unrendered__)]: <NoName />,
+  "length": 1,
+}
+`;
+
+exports[`Test of 'styled-components' components: should <Cloudpart> render: 1`] = `
+ShallowWrapper {
+  [Symbol(enzyme.__node__)]: {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": {
+      "className": "sc-imWZod",
+    },
+    "ref": null,
+    "rendered": null,
+    "type": "div",
+  },
+  [Symbol(enzyme.__nodes__)]: [
+    {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": {
+        "className": "sc-imWZod",
+      },
+      "ref": null,
+      "rendered": null,
+      "type": "div",
+    },
+  ],
+  [Symbol(enzyme.__options__)]: {
+    "adapter": ReactEighteenAdapter {
+      "options": {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": {
+          "componentDidUpdate": {
+            "onSetState": true,
+          },
+          "getChildContext": {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    [Symbol(enzyme.__providerValues__)]: undefined,
+  },
+  [Symbol(enzyme.__providerValues__)]: Map {},
+  [Symbol(enzyme.__renderer__)]: {
+    "batchedUpdates": [Function: batchedUpdates],
+    "checkPropTypes": [Function: checkPropTypes],
+    "getNode": [Function: getNode],
+    "render": [Function: render],
+    "simulateError": [Function: simulateError],
+    "simulateEvent": [Function: simulateEvent],
+    "unmount": [Function: unmount],
+  },
+  [Symbol(enzyme.__root__)]: [Circular],
+  [Symbol(enzyme.__unrendered__)]: <NoName />,
+  "length": 1,
+}
 `;

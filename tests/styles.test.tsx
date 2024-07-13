@@ -1,70 +1,75 @@
-import React from 'react'
-import renderer from 'react-test-renderer'
-import 'jest-styled-components'
+import Adapter from '@cfaester/enzyme-adapter-react-18';
+import type { ShallowWrapper } from 'enzyme';
+import Enzyme, { shallow } from 'enzyme';
+import React from 'react';
+import { describe, expect, test } from 'vitest';
+
 import {
-    Switch,
-    SwitchContainer,
-    ContentWrapper,
-    Circle,
-    Star,
-    Stars,
-    ShootingStar,
-    ShootingStarWrapper,
-    Cloud,
-    Clouds,
-    Cloudpart
-} from '../src/styles'
+  Circle,
+  Cloud,
+  Cloudpart,
+  Clouds,
+  ContentWrapper,
+  ShootingStar,
+  ShootingStarWrapper,
+  Star,
+  Stars,
+  Switch,
+  SwitchContainer,
+} from '../src/styles';
 
+Enzyme.configure({ adapter: new Adapter() });
 
-describe('Test of \'styled-components\' components:', () => {
-    let testSize: number = 32
-    let testShadow: boolean = true
+describe("Test of 'styled-components' components:", () => {
+  let testSize: number = 32;
+  let wrapper: ShallowWrapper<{ className: string; size: number; shadow?: boolean; }>;
+  let testShadow: boolean = true;
 
-    test('should <SwitchContainer> render:', () => {
-        let component = renderer.create(<SwitchContainer size={testSize} />)
-        expect(component.toJSON()).toMatchSnapshot()
-        expect(component.root.props.size).toEqual(testSize)
-    })
-    test('should <Switch> render:', () => {
-        let component = renderer.create(<Switch size={testSize} shadow={testShadow} />)
-        expect(component.toJSON()).toMatchSnapshot()
-        expect(component.root.props).toEqual({ size: testSize, shadow: testShadow })
-    })
-    test('should <ContentWrapper> render:', () => {
-        let component = renderer.create(<ContentWrapper />)
-        expect(component.toJSON()).toMatchSnapshot()
-    })
-    test('should <Circle> render:', () => {
-        let component = renderer.create(<Circle />)
-        expect(component.toJSON()).toMatchSnapshot()
-    })
-    test('should <Star> render:', () => {
-        let component = renderer.create(<Star />)
-        expect(component.toJSON()).toMatchSnapshot()
-    })
-    test('should <Stars> render:', () => {
-        let component = renderer.create(<Stars />)
-        expect(component.toJSON()).toMatchSnapshot()
-    })
-    test('should <ShootingStar> render:', () => {
-        let component = renderer.create(<ShootingStar />)
-        expect(component.toJSON()).toMatchSnapshot()
-    })
-    test('should <ShootingStarWrapper> render:', () => {
-        let component = renderer.create(<ShootingStarWrapper />)
-        expect(component.toJSON()).toMatchSnapshot()
-    })
-    test('should <Cloud> render:', () => {
-        let component = renderer.create(<Cloud />)
-        expect(component.toJSON()).toMatchSnapshot()
-    })
-    test('should <Clouds> render:', () => {
-        let component = renderer.create(<Clouds />)
-        expect(component.toJSON()).toMatchSnapshot()
-    })
-    test('should <Cloudpart> render:', () => {
-        let component = renderer.create(<Cloudpart />)
-        expect(component.toJSON()).toMatchSnapshot()
-    })
-
-})
+  test('should <SwitchContainer> render:', () => {
+    wrapper = shallow(<SwitchContainer size={testSize} />);
+    expect(wrapper).toMatchSnapshot();
+    expect((wrapper.props()).size).toEqual(testSize);
+  });
+  test('should <Switch> render:', () => {
+    wrapper = shallow(<Switch size={testSize} shadow={testShadow} />);
+    expect(wrapper).toMatchSnapshot();
+    const { size, shadow } = wrapper.props();
+    expect({ size, shadow }).toEqual({ size: testSize, shadow: testShadow });
+  });
+  test('should <ContentWrapper> render:', () => {
+    wrapper = shallow(<ContentWrapper />);
+    expect(wrapper).toMatchSnapshot();
+  });
+  test('should <Circle> render:', () => {
+    wrapper = shallow(<Circle />);
+    expect(wrapper).toMatchSnapshot();
+  });
+  test('should <Star> render:', () => {
+    wrapper = shallow(<Star />);
+    expect(wrapper).toMatchSnapshot();
+  });
+  test('should <Stars> render:', () => {
+    wrapper = shallow(<Stars />);
+    expect(wrapper).toMatchSnapshot();
+  });
+  test('should <ShootingStar> render:', () => {
+    wrapper = shallow(<ShootingStar />);
+    expect(wrapper).toMatchSnapshot();
+  });
+  test('should <ShootingStarWrapper> render:', () => {
+    wrapper = shallow(<ShootingStarWrapper />);
+    expect(wrapper).toMatchSnapshot();
+  });
+  test('should <Cloud> render:', () => {
+    wrapper = shallow(<Cloud />);
+    expect(wrapper).toMatchSnapshot();
+  });
+  test('should <Clouds> render:', () => {
+    wrapper = shallow(<Clouds />);
+    expect(wrapper).toMatchSnapshot();
+  });
+  test('should <Cloudpart> render:', () => {
+    wrapper = shallow(<Cloudpart />);
+    expect(wrapper).toMatchSnapshot();
+  });
+});

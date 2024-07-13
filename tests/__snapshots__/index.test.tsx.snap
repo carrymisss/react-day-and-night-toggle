@@ -1,159 +1,371 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Bun Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Test of component <DayAndNightToggler>: should all props be passed: 1`] = `
-<div
-  className="sc-bdnxRM gKaFwy class_name"
-  size={24}
->
-  <div
-    checked={false}
-    className="sc-gtsrHT iUrEYJ"
-    onClick={[Function]}
-    size={24}
-  >
-    <div
-      className="sc-dlnjwi dUJAIp"
-    >
-      <div
-        className="sc-hKFxyN fbhGat"
-      />
-      <div
-        className="sc-eCApnc"
-      >
-        <div
-          className="sc-jSFjdj kLwpYE"
-        />
-        <div
-          className="sc-jSFjdj kLwpYE"
-        />
-        <div
-          className="sc-jSFjdj kLwpYE"
-        />
-        <div
-          className="sc-gKAaRy gFUvte"
-        >
-          <div
-            className="sc-iCoGMd bvBrMn"
-          />
-        </div>
-      </div>
-      <div
-        className="sc-pNWdM"
-      >
-        <div
-          className="sc-jrsJWt ccGWJZ"
-        >
-          <div
-            className="sc-fujyAs"
-          />
-          <div
-            className="sc-fujyAs"
-          />
-        </div>
-        <div
-          className="sc-jrsJWt ccGWJZ"
-        >
-          <div
-            className="sc-fujyAs"
-          />
-          <div
-            className="sc-fujyAs"
-          />
-        </div>
-        <div
-          className="sc-jrsJWt ccGWJZ"
-        >
-          <div
-            className="sc-fujyAs"
-          />
-          <div
-            className="sc-fujyAs"
-          />
-          <div
-            className="sc-fujyAs"
-          />
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+exports[`Test of component <DayAndNightToggle>: should render: 1`] = `
+{
+  "$$typeof": Symbol(react.test.json),
+  "children": [
+    {
+      "$$typeof": Symbol(react.test.json),
+      "children": [
+        {
+          "$$typeof": Symbol(react.test.json),
+          "children": [
+            {
+              "$$typeof": Symbol(react.test.json),
+              "children": null,
+              "props": {
+                "className": "sc-fqkwJk ePdnmY",
+              },
+              "type": "div",
+            },
+            {
+              "$$typeof": Symbol(react.test.json),
+              "children": [
+                {
+                  "$$typeof": Symbol(react.test.json),
+                  "children": null,
+                  "props": {
+                    "className": "sc-iGgVNO jhIIpU",
+                  },
+                  "type": "div",
+                },
+                {
+                  "$$typeof": Symbol(react.test.json),
+                  "children": null,
+                  "props": {
+                    "className": "sc-iGgVNO jhIIpU",
+                  },
+                  "type": "div",
+                },
+                {
+                  "$$typeof": Symbol(react.test.json),
+                  "children": null,
+                  "props": {
+                    "className": "sc-iGgVNO jhIIpU",
+                  },
+                  "type": "div",
+                },
+                {
+                  "$$typeof": Symbol(react.test.json),
+                  "children": [
+                    {
+                      "$$typeof": Symbol(react.test.json),
+                      "children": null,
+                      "props": {
+                        "className": "sc-kAycRU etyDCI",
+                      },
+                      "type": "div",
+                    },
+                  ],
+                  "props": {
+                    "className": "sc-gsFSjX kfhihz",
+                  },
+                  "type": "div",
+                },
+              ],
+              "props": {
+                "className": "sc-dcJtft",
+              },
+              "type": "div",
+            },
+            {
+              "$$typeof": Symbol(react.test.json),
+              "children": [
+                {
+                  "$$typeof": Symbol(react.test.json),
+                  "children": [
+                    {
+                      "$$typeof": Symbol(react.test.json),
+                      "children": null,
+                      "props": {
+                        "className": "sc-imWZod",
+                      },
+                      "type": "div",
+                    },
+                    {
+                      "$$typeof": Symbol(react.test.json),
+                      "children": null,
+                      "props": {
+                        "className": "sc-imWZod",
+                      },
+                      "type": "div",
+                    },
+                  ],
+                  "props": {
+                    "className": "sc-dhKdPU dxxEnp",
+                  },
+                  "type": "div",
+                },
+                {
+                  "$$typeof": Symbol(react.test.json),
+                  "children": [
+                    {
+                      "$$typeof": Symbol(react.test.json),
+                      "children": null,
+                      "props": {
+                        "className": "sc-imWZod",
+                      },
+                      "type": "div",
+                    },
+                    {
+                      "$$typeof": Symbol(react.test.json),
+                      "children": null,
+                      "props": {
+                        "className": "sc-imWZod",
+                      },
+                      "type": "div",
+                    },
+                  ],
+                  "props": {
+                    "className": "sc-dhKdPU dxxEnp",
+                  },
+                  "type": "div",
+                },
+                {
+                  "$$typeof": Symbol(react.test.json),
+                  "children": [
+                    {
+                      "$$typeof": Symbol(react.test.json),
+                      "children": null,
+                      "props": {
+                        "className": "sc-imWZod",
+                      },
+                      "type": "div",
+                    },
+                    {
+                      "$$typeof": Symbol(react.test.json),
+                      "children": null,
+                      "props": {
+                        "className": "sc-imWZod",
+                      },
+                      "type": "div",
+                    },
+                    {
+                      "$$typeof": Symbol(react.test.json),
+                      "children": null,
+                      "props": {
+                        "className": "sc-imWZod",
+                      },
+                      "type": "div",
+                    },
+                  ],
+                  "props": {
+                    "className": "sc-dhKdPU dxxEnp",
+                  },
+                  "type": "div",
+                },
+              ],
+              "props": {
+                "className": "sc-jXbVAB",
+              },
+              "type": "div",
+            },
+          ],
+          "props": {
+            "className": "sc-eqUzNf beLJUp",
+          },
+          "type": "div",
+        },
+      ],
+      "props": {
+        "checked": false,
+        "className": "sc-gEvDqW dhGSst",
+        "onClick": [Function],
+        "shadows": true,
+        "size": 32,
+      },
+      "type": "div",
+    },
+  ],
+  "props": {
+    "className": "sc-aYaIB dZxTuZ",
+    "size": 32,
+  },
+  "type": "div",
+}
 `;
 
-exports[`Test of component <DayAndNightToggler>: should render: 1`] = `
-<div
-  className="sc-bdnxRM ijVOMr"
-  size={32}
->
-  <div
-    checked={false}
-    className="sc-gtsrHT jZKEtf"
-    onClick={[Function]}
-    size={32}
-  >
-    <div
-      className="sc-dlnjwi dUJAIp"
-    >
-      <div
-        className="sc-hKFxyN fbhGat"
-      />
-      <div
-        className="sc-eCApnc"
-      >
-        <div
-          className="sc-jSFjdj kLwpYE"
-        />
-        <div
-          className="sc-jSFjdj kLwpYE"
-        />
-        <div
-          className="sc-jSFjdj kLwpYE"
-        />
-        <div
-          className="sc-gKAaRy gFUvte"
-        >
-          <div
-            className="sc-iCoGMd bvBrMn"
-          />
-        </div>
-      </div>
-      <div
-        className="sc-pNWdM"
-      >
-        <div
-          className="sc-jrsJWt ccGWJZ"
-        >
-          <div
-            className="sc-fujyAs"
-          />
-          <div
-            className="sc-fujyAs"
-          />
-        </div>
-        <div
-          className="sc-jrsJWt ccGWJZ"
-        >
-          <div
-            className="sc-fujyAs"
-          />
-          <div
-            className="sc-fujyAs"
-          />
-        </div>
-        <div
-          className="sc-jrsJWt ccGWJZ"
-        >
-          <div
-            className="sc-fujyAs"
-          />
-          <div
-            className="sc-fujyAs"
-          />
-          <div
-            className="sc-fujyAs"
-          />
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+exports[`Test of component <DayAndNightToggle>: should all props be passed: 1`] = `
+{
+  "$$typeof": Symbol(react.test.json),
+  "children": [
+    {
+      "$$typeof": Symbol(react.test.json),
+      "children": [
+        {
+          "$$typeof": Symbol(react.test.json),
+          "children": [
+            {
+              "$$typeof": Symbol(react.test.json),
+              "children": null,
+              "props": {
+                "className": "sc-fqkwJk ePdnmY",
+              },
+              "type": "div",
+            },
+            {
+              "$$typeof": Symbol(react.test.json),
+              "children": [
+                {
+                  "$$typeof": Symbol(react.test.json),
+                  "children": null,
+                  "props": {
+                    "className": "sc-iGgVNO jhIIpU",
+                  },
+                  "type": "div",
+                },
+                {
+                  "$$typeof": Symbol(react.test.json),
+                  "children": null,
+                  "props": {
+                    "className": "sc-iGgVNO jhIIpU",
+                  },
+                  "type": "div",
+                },
+                {
+                  "$$typeof": Symbol(react.test.json),
+                  "children": null,
+                  "props": {
+                    "className": "sc-iGgVNO jhIIpU",
+                  },
+                  "type": "div",
+                },
+                {
+                  "$$typeof": Symbol(react.test.json),
+                  "children": [
+                    {
+                      "$$typeof": Symbol(react.test.json),
+                      "children": null,
+                      "props": {
+                        "className": "sc-kAycRU etyDCI",
+                      },
+                      "type": "div",
+                    },
+                  ],
+                  "props": {
+                    "className": "sc-gsFSjX kfhihz",
+                  },
+                  "type": "div",
+                },
+              ],
+              "props": {
+                "className": "sc-dcJtft",
+              },
+              "type": "div",
+            },
+            {
+              "$$typeof": Symbol(react.test.json),
+              "children": [
+                {
+                  "$$typeof": Symbol(react.test.json),
+                  "children": [
+                    {
+                      "$$typeof": Symbol(react.test.json),
+                      "children": null,
+                      "props": {
+                        "className": "sc-imWZod",
+                      },
+                      "type": "div",
+                    },
+                    {
+                      "$$typeof": Symbol(react.test.json),
+                      "children": null,
+                      "props": {
+                        "className": "sc-imWZod",
+                      },
+                      "type": "div",
+                    },
+                  ],
+                  "props": {
+                    "className": "sc-dhKdPU dxxEnp",
+                  },
+                  "type": "div",
+                },
+                {
+                  "$$typeof": Symbol(react.test.json),
+                  "children": [
+                    {
+                      "$$typeof": Symbol(react.test.json),
+                      "children": null,
+                      "props": {
+                        "className": "sc-imWZod",
+                      },
+                      "type": "div",
+                    },
+                    {
+                      "$$typeof": Symbol(react.test.json),
+                      "children": null,
+                      "props": {
+                        "className": "sc-imWZod",
+                      },
+                      "type": "div",
+                    },
+                  ],
+                  "props": {
+                    "className": "sc-dhKdPU dxxEnp",
+                  },
+                  "type": "div",
+                },
+                {
+                  "$$typeof": Symbol(react.test.json),
+                  "children": [
+                    {
+                      "$$typeof": Symbol(react.test.json),
+                      "children": null,
+                      "props": {
+                        "className": "sc-imWZod",
+                      },
+                      "type": "div",
+                    },
+                    {
+                      "$$typeof": Symbol(react.test.json),
+                      "children": null,
+                      "props": {
+                        "className": "sc-imWZod",
+                      },
+                      "type": "div",
+                    },
+                    {
+                      "$$typeof": Symbol(react.test.json),
+                      "children": null,
+                      "props": {
+                        "className": "sc-imWZod",
+                      },
+                      "type": "div",
+                    },
+                  ],
+                  "props": {
+                    "className": "sc-dhKdPU dxxEnp",
+                  },
+                  "type": "div",
+                },
+              ],
+              "props": {
+                "className": "sc-jXbVAB",
+              },
+              "type": "div",
+            },
+          ],
+          "props": {
+            "className": "sc-eqUzNf beLJUp",
+          },
+          "type": "div",
+        },
+      ],
+      "props": {
+        "checked": false,
+        "className": "sc-gEvDqW glhzUP",
+        "onClick": [Function],
+        "shadows": true,
+        "size": 24,
+      },
+      "type": "div",
+    },
+  ],
+  "props": {
+    "className": "sc-aYaIB hnbNJo class_name",
+    "size": 24,
+  },
+  "type": "div",
+}
 `;

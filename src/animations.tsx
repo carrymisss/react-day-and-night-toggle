@@ -1,5 +1,4 @@
-import { keyframes } from 'styled-components'
-
+import { keyframes } from 'styled-components';
 
 export const growbrighter = keyframes`
     0% {
@@ -8,7 +7,7 @@ export const growbrighter = keyframes`
     100% {
         box-shadow: 0 0 15px 0px rgb(255, 255, 255);
     }
-`
+`;
 
 export const startravel1 = keyframes`
     0% {
@@ -17,7 +16,7 @@ export const startravel1 = keyframes`
     100% {
         transform: rotate(-60deg) translate(-80px) scale(1.3);
     }
-`
+`;
 
 export const startravel2 = keyframes`
     0% {
@@ -26,7 +25,7 @@ export const startravel2 = keyframes`
     100% {
         transform: rotate(-25deg) translate(-160px) scale(1.2);
     }
-`
+`;
 
 export const startravel3 = keyframes`
     0% {
@@ -35,7 +34,7 @@ export const startravel3 = keyframes`
     100% {
         transform: rotate(-20deg) translate(-200px) scale(0.7);
     }
-`
+`;
 export const shootingstartravel = keyframes`
     0% {
         transform: translate(200px, -30px) rotate(-30deg);
@@ -46,7 +45,7 @@ export const shootingstartravel = keyframes`
     100% {
         transform: translate(-180px, 170px) rotate(-30deg);
     }
-`
+`;
 
 export const growtrail = keyframes`
     0% {
@@ -58,7 +57,7 @@ export const growtrail = keyframes`
     100% {
         width: 180px;
     }
-`
+`;
 
 export const cloudtravel1 = keyframes`
     0% {
@@ -69,7 +68,7 @@ export const cloudtravel1 = keyframes`
         left: 330px;
         transform: scale(0.8);
     }
-`
+`;
 
 export const cloudtravel2 = keyframes`
     0% {
@@ -80,7 +79,7 @@ export const cloudtravel2 = keyframes`
         left: 330px;
         transform: scale(1);
     }
-`
+`;
 
 export const cloudtravel3 = keyframes`
     0% {
@@ -91,4 +90,4 @@ export const cloudtravel3 = keyframes`
         left: 340px;
         transform: scale(0.65);
     }
-`
+`;
